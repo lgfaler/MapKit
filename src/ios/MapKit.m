@@ -38,7 +38,7 @@
     float height = ([options objectForKey:@"height"]) ? [[options objectForKey:@"height"] floatValue] : self.webView.bounds.size.height/2;
     float width = ([options objectForKey:@"width"]) ? [[options objectForKey:@"width"] floatValue] : self.webView.bounds.size.width;
     float x = self.webView.bounds.origin.x;
-    float y = self.webView.bounds.origin.y;
+    float y = self.webView.bounds.origin.y+21;
     BOOL atBottom = ([options objectForKey:@"atBottom"]) ? [[options objectForKey:@"atBottom"] boolValue] : NO;
 
     if(atBottom) {
