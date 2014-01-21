@@ -62,6 +62,7 @@ In case everything miserably fails and you can't build your project, you might n
 
         <framework src="MapKit.framework" />
         <resource-file src="src/ios/icon.png" />
+        <resource-file src="src/ios/icon_MapLogo.png" />
 
         <header-file src="src/ios/AsyncImageView.h" />
         <header-file src="src/ios/CDVAnnotation.h" />
